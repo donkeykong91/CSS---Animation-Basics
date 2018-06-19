@@ -14,6 +14,8 @@ body {
 .robot {
 	animation-name: slide;
 	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
 }
 
 @keyframes slide {
