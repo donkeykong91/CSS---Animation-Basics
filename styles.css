@@ -13,11 +13,10 @@ body {
 
 .robot {
 	animation-name: slide;
-	animation-duration: 2s;
-	animation-timing-function: ease-in;
-	animation-iteration-count: 2;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	animation-direction: alternate-reverse;
 }
 
 @keyframes slide {
