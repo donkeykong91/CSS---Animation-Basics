@@ -14,7 +14,7 @@ body {
 .robot {
 	animation-name: slide;
 	animation-duration: 3s;
-	animation-timing-function: ease;
+	animation-timing-function: cubic-bezier(.02,.86,.97,.43);
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
